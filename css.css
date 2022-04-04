@@ -1,8 +1,63 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.wrapper{
-    width: 100%;
-    height: 100vh;
-    background:linear-gradient(to Sright,red 30%, black 30%); 
+.html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(90deg, red 30%, black 30%);
+  overflow: hidden;
+}
+.header {
+  display: flex;
+}
+.logo {
+  display: flex;
+  margin-right: 689px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.logo__text {
+  font-size: 20px;
+  margin-left: 17px;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.nav {
+  display: flex;
+  
+}
+.nav__item {
+  font-size: 18px;
+  color: white;
+  margin-right: 71px;
+}
+
+.nav__item:last-child {
+  margin-right: 54px;
+}
+.red {
+  border-bottom: 2px solid red;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 350px;
+  color: white;
+}
+.car {
+  margin-top: -21%;
 }
