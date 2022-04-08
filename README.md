@@ -1,1 +1,1 @@
-# gred
+https://saveliyhoirysh.github.io/gred/
